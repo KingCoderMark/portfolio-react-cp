@@ -9,43 +9,44 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "< Mark Amada />",
+  title: "Hi coders!, I'm Mark",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A soon to be Full Stack Software Engineer🚀 This 5 Day React.Js Challenge is so cool. Kudos to the people who made this. I am a fan of Clever Programmer, Qazi inspire me a lot. Cheers to you man! "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1SLpsXQz9yXDVBwjGMnZgtHOEVgG_PJ4B/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
+  github: "https://github.com/KingCoderMark",
   // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
-  // gitlab: "https://gitlab.com/",
-  // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  gmail: "mark.amada.2021@gmail.com",
+ // gitlab: "https://gitlab.com/",
+  facebook: "https://www.facebook.com/KingCoderMark",
+ // medium: "https://medium.com/@davidrakosi",
+  stackoverflow: "https://stackoverflow.com/users/15267688/kingcodermark",
+  instagram: 'https://www.instagram.com/kingcodermark/',
+  twitter: 'https://twitter.com/kingcodermark',
   display: true // Set true to display this section, defaults to false
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "I revamped my skills",
+  subTitle: "I do self study at home to learn these technologies",
+  title: "I revamped my skills",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ My graphic skills will surely help me build cool web interfaces "
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ I want to develop progressive Web Applications using MERN Stack"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ I also want to learn using API, building ecommerce sites and trading stocks."
     )
   ],
 
@@ -78,8 +79,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
       skillName: "npm",
@@ -100,26 +101,27 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "UP Diliman",
+      logo: require("./assets/images/UP.png"),
+      subHeader: "UP Information Technology Development Center, Philippines",
+      duration: "September 23, 2013 - December 18, 2013",
+      desc: "Develop mobile applications using native",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Get a general weighted average of 1.60",
+        "Develop mobile apps "
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "AMA CC Lipa Campus, Philippines",
+      logo: require("./assets/images/AMA.jpg"),
+      subHeader: "Bachelor of Science in Information Technology",
+      duration: "June 2008 - April 2012",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+        "Get 1.0 in On the Job Training...",
+      descBullets: ["High grades on software subjects"]
     }
   ]
 };
@@ -130,17 +132,22 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "PHP", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Javascript", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Programming",
+      Stack: "React.js", //Insert stack or technology you have experience in
+      progressPercentage: "30%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Adobe Illustrator",
       progressPercentage: "90%"
     }
+    
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -151,34 +158,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Graphic Artist",
+      company: "Dream pay Printing Services",
+      companylogo: require("./assets/images/dream.png"),
+      date: "September 2019 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Provide printing services",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Print and layout tarpaulin, invitations",
+        "Logo Design",
+        "Payment Services",
+        "Photo print"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
+      role: "Business Owner ( T-Shirt printing )",
+      company: "Tatak Batangueno",
+      companylogo: require("./assets/images/tatak.jpg"),
       date: "July 2019 – September 2020",
       desc:
         "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
     },
     {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
+      role: "Full Stack Web Developer",
+      company: "coming soon...",
+      companylogo: require("./assets/images/soon.png"),
+      date: "coming soon...",
       desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
+        "I will be in your company soon"
     }
   ]
 };
@@ -188,104 +195,71 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "Kingcodermark", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Soon to build Projects",
+  subtitle: "some of my future projects",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ecommerce.png"),
+      projectName: "E-commerce site",
+      projectDesc: "Being in -demand right now, it will be a good addition to my portfolio",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "coming soon",
           url: "fa"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/school2.svg"),
+      projectName: "Online School Classroom",
+      projectDesc: "a web app that allows students feel like they are in their physical classrooms",
       footerLink: [
         {
-          name: "Visit Website",
-          url: ""
+          name: "coming soon",
+          url: "fa"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Soon to be Achievement 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "The prize will really help me ",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "React.JS 5 Day Challenge Winner",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "just hoping haha. Or 3rd Place will be fine too :)",
+      image: require("./assets/images/5.png"),
       footerLink: [
         {
-          name: "Certification",
-          url:
-            ""
-        },
-        {
-          name: "Award Letter",
-          url:
-            ""
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            ""
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
+          name: "Win $15,000 / Javascript Course",
           url:
             ""
         }
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: ""
-        }
-      ]
-    }
+
+
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -310,7 +284,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -349,16 +323,17 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "(639) 076  455666",
+  email_address: "mark.amada.2021@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+  userName: "kingcodermark", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
+
 
 export {
   illustration,

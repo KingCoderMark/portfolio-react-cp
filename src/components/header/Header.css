@@ -3,6 +3,7 @@
 .dark-menu {
   background-color: #171c28 !important;
   color: white;
+
 }
 
 .dark-menu li a {
@@ -18,6 +19,7 @@
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
+
 }
 
 .header ul {
@@ -52,11 +54,13 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
+  font-family: "Pixel-Art Regular";
+  font-weight: normal;
+  font-style: normal;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  
 }
 
 /* menu */

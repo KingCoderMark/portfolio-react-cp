@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Agustina Regular";
+  font-family: "Pixel-Art Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
+  src: local("Pixel-Art Regular"),
+    url("./assets/fonts/PixelDart.ttf") format("woff");
   font-display: swap;
 }
 @font-face {
